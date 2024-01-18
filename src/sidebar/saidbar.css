@@ -1,0 +1,78 @@
+.container{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .02);
+    border-radius: 10px;
+    color: #333;
+    font-family: 'Varela Round', sans-serif;
+}
+.container-top-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.said-about{
+    border-top: 2px solid #666;
+    border-bottom: 2px solid #666;
+    width: 240px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.img-slide{
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    
+}
+.container-top-side > p{
+    max-width: 250px;
+    margin: 20px 0;
+    line-height: 25px;
+}
+.categorie-sid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6px;
+}
+.item-categorie{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.c-item{
+   width: 50%;
+   text-align: center;
+   margin-left: 12px;
+   font-size: 18px;
+   cursor: pointer;
+}
+.link-social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.folower{
+    display: flex;
+    align-items: center;
+    color: #444;
+    font-size: 20px;
+}
+.socio-folower{
+    margin-left: 10px;
+}

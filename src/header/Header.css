@@ -1,0 +1,26 @@
+.container-header{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lora', serif;
+    color: #444;
+}
+.header-sm{
+    position: absolute;
+    top: 18%;
+    font-size: 20px;
+}
+.header-lg{
+    position: absolute;
+    top: 20%;
+    font-size: 70px;
+    font-weight: 700;
+}
+.img-head{
+    margin-top: 60px;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
