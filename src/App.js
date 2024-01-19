@@ -1,36 +1,29 @@
 import Topbar from "./topbar/Topbar";
 import Home from "./home/Home"
 import Single from "./sigle/Single"
-// import Write from "./write/Write";
-import Setings from "./setings/Setings";
+import Write from "./write/Write";
+// import Setings from "./setings/Setings";
 import Login from "./login/Login";
 import Register from "./register/Register";
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
-} from "react-router-dom";
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: (
-      <div>
-        <Home />
-        <Link to="/">HOME</Link> 
-      </div>
-    ),
-  }
-]);
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 function App() {
+
   return (
-    <>
-      <Topbar />
-      <RouterProvider router={router} />
-    </>
+    <div>
+    <BrowserRouter>
+      <Topbar/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/about" element={<Single/>}></Route>
+        <Route path="/contact" element={<Login/>}></Route>
+        <Route path="/write" element={<Write/>}></Route>
+        <Route path="/login" element={<Register/>}></Route>
+      </Routes>
+    </BrowserRouter>
+
+    </div>
   );
 }
 

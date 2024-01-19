@@ -34,8 +34,6 @@
 .item{
     margin-right: 18px;
     cursor: pointer;
-}
-.item a{
     text-decoration: none;
     color: #666;
 }
