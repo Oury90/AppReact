@@ -1,0 +1,50 @@
+.single-post{
+    flex: 9;
+}
+.singlePost-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-right: 0;
+}
+.singlePost-container img{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.singlePost-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #444;
+}
+.singlePost-icon{
+    font-size: 18px;
+    cursor: pointer;
+}
+.single-icon:first-child{
+    color: teal;
+    margin-right: 12px;
+}
+.single-icon:last-child{
+    color: tomato;
+}
+.singlePost-author{
+    color: #444;
+    margin-bottom: 15px;
+}
+.singlePost-content{
+    font-size: 18px;
+    font-family: 'Varela Round', sans-serif;
+    color: #666;
+    line-height: 30px;
+}
+.singlePost-content::first-letter{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin-left: 20px;
+}

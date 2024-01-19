@@ -1,0 +1,6 @@
+.register{
+    display: flex;
+}
+.register-title{
+    flex: 9;
+}

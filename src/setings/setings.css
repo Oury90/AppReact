@@ -1,0 +1,8 @@
+.setings{
+    display: flex;
+}
+.setings-head{
+    flex: 9;
+    text-align: center;
+    
+}
